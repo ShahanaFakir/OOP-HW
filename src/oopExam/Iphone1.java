@@ -15,8 +15,9 @@ package oopExam;
 public class Iphone1 extends AppleWatch implements Phone {
 
 	public void regularClassInfo() {
-		System.out.println(" RegularClassInfo method is from Iphone1 Regular Class." + "\nAbstract class & Interface cannot be instantiated "
-				+ "They need help of concreate class(regular class) to instantiated"
+		System.out.println("\nRegularClassInfo method is from Iphone1 Regular Class."
+				+ "\nAbstract class & Interface cannot be instantiated "
+				+ "They need help of concrete class(regular class) to instantiated"
 				+ "\nContains only non-abstract methods"
 				+ "\nextends and implements keywords are used for inheritance");
 	}

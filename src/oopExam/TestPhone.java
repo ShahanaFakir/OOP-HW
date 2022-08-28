@@ -43,6 +43,8 @@ public class TestPhone {
 		phone.battery();
 		phone.data();
 		phone.wakitokiInfo();
+		
+		System.out.println("\n----------Iphone2----------\n");
 
 		System.out.println("----Default constructor initialized from Iphone2 class----");
 		Iphone2 iphone2 = new Iphone2();
@@ -58,11 +60,13 @@ public class TestPhone {
 		Iphone1 iphone02 = new Iphone1(450, "2002", 'F', true);
 		System.out.println("\n----void type method initialized from Iphone1 class----");
 		Iphone1 iphone03 = new Iphone1();
-		
+
 		System.out.println("\n........Iphone6 instantiated and call all possible methods.........");
 		Iphone6 iphone6 = new Iphone6();
 		iphone6.setInfo(null);
 		iphone6.setMadeInUSA(false);
+		iphone6.setPrice(0);
+		iphone6.setUser('0');
 		iphone6.getPrice();
 		iphone6.getInfo();
 		iphone6.isMadeInUSA();
@@ -84,12 +88,57 @@ public class TestPhone {
 		iphone6.email();
 		iphone6.getUser();
 		iphone6.dropBox();
+		iphone6.compass();
+		iphone6.appleWatchSeriesInfo();
+		iphone6.iPhone2Info('M');
+		iphone6.iPhone6(200, 250);
+		iphone6.iPhone6(250, "350");
+		iphone6.iPhone6(200, 2500, "350", 400);
+		iphone6.iPhone6("350", 400, 200, 250);
+
+		System.out.println("\n----Regular Class ConfiguredIphone6----\n");
+
+		ConfiguredIphone6 cIphone6 = new ConfiguredIphone6();
+		cIphone6.compass();
+		cIphone6.email();
+		cIphone6.photos();
+		cIphone6.iPhone2Info();
+		cIphone6.iPhone2Info('M');
+		cIphone6.dropBox();
+		cIphone6.regularClassInfo();
+		cIphone6.wakitokiInfo();
+		cIphone6.watchInfo();
+		ConfiguredIphone6.youTube();
+		cIphone6.interfaceInfo();
+		cIphone6.call();
+		cIphone6.message();
+		cIphone6.camera();
+		cIphone6.battery();
+		cIphone6.abstractClassInfo();
+		cIphone6.appleWatchInfo();
+		cIphone6.digitalWatchInfo();
+		cIphone6.appleWatchSeriesInfo();
+		cIphone6.data();
+		cIphone6.iPhone6(200, 250);
+		cIphone6.iPhone6(250, "350");
+		cIphone6.iPhone6(200, 250, "350", 400);
+		cIphone6.iPhone6("350", 400, 200, 250);
 
 		/*
-		 * Instantiate Iphone6 in TestPhone and show how many methods they can call in
-		 * TestPhone. [points: 70] . Comment out at the end of TestPhone to inform me
-		 * which is hierarchical inheritance, multilevel inheritance, and single
-		 * inheritance. [points: 50].
+		 * The relation between Iphone1, Iphone2, Iphone3, Iphone4, Iphone5 and Iphone6
+		 * is an example of multilevel inheritance. like Iphone6 extends Iphone5,
+		 * Iphone5 extends iphone4, Iphone4 extends Iphone2, Iphone3 extends Iphone1.
+		 */
+
+		/*
+		 * The relation between Iphone1, Iphone2, Iphone3 is an example of hierarchical
+		 * inheritance. Like both Iphone2 and Iphone3 are derived from the parent class
+		 * Iphone1.
+		 */
+
+		/*
+		 * The relation between Iphone1 and Iphone2 is an example of single inheritance.
+		 * Like Iphone2 extends Iphone1.
 		 */
 
 	}

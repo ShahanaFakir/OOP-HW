@@ -39,7 +39,5 @@ public abstract class AppleWatch extends AppleWatchSeries5 implements Watch, Dig
 	}
 
 	public abstract void appleWatchInfo();
-	
-	//updated
 
 }

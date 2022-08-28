@@ -62,8 +62,8 @@ public class ConfiguredIphone6 extends Iphone6 {
 	// }
 
 	/*
-	 * Final type method can not overridden. We can not override the final method from
-	 * Iphone6 class.
+	 * Final type method can not overridden. We can not override the final method
+	 * from Iphone6 class.
 	 */
 
 }
