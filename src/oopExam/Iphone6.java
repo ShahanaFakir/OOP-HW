@@ -55,6 +55,4 @@ public class Iphone6 extends Iphone5 {
 		return total5;
 	}
 
-	// Paste the github link for the package below
-
 }
